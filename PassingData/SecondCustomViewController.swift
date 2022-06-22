@@ -16,10 +16,10 @@ class SecondCustomViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = selectedItem.uppercased()
+        title = selectedItem.uppercased()  //selectedItem
         view.backgroundColor = .systemBackground
         
-        let label = UILabel(frame: view.bounds)
+        let label = UILabel(frame: view.bounds)  //relatedItems
         view.addSubview(label)
         label.textAlignment = .center
         label.numberOfLines = -1
