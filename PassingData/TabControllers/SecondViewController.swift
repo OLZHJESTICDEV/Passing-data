@@ -6,10 +6,13 @@
 //
 
 import UIKit
+import Foundation
 
 //Completion handler model
 class SecondViewController: UIViewController {
-
+    
+    var observer: NSObjectProtocol?
+    
     let label: UILabel = {
         let label = UILabel(frame: CGRect(x: 0, y: 50, width: 200, height: 50))
         label.textAlignment = .center
@@ -34,6 +37,17 @@ class SecondViewController: UIViewController {
         view.addSubview(button)
         button.center = view.center
         button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+        
+        
+        //Notifiaction
+        observer = NotificationCenter.default.addObserver(forName: Notification.Name("ourCustom"), object: nil, queue: .main, using: {
+            notification in
+            
+            guard let object = notification.object as? [String: UIColor] else {return}
+            guard let color = object["color"] else {return}
+            self.view.backgroundColor = color
+        })
+
     }
     
     @objc private func didTapButton(){
