@@ -17,6 +17,8 @@
 		0463B1BF28630ACC0095E853 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463B1BE28630ACC0095E853 /* SecondViewController.swift */; };
 		0463B1C128630AD20095E853 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463B1C028630AD20095E853 /* ThirdViewController.swift */; };
 		0463B1C328630D0F0095E853 /* TextEntryCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463B1C228630D0F0095E853 /* TextEntryCustomViewController.swift */; };
+		0463B1C52863251D0095E853 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463B1C42863251D0095E853 /* FourthViewController.swift */; };
+		0463B1C7286326390095E853 /* ColorChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463B1C6286326390095E853 /* ColorChooseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		0463B1BE28630ACC0095E853 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0463B1C028630AD20095E853 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		0463B1C228630D0F0095E853 /* TextEntryCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryCustomViewController.swift; sourceTree = "<group>"; };
+		0463B1C42863251D0095E853 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		0463B1C6286326390095E853 /* ColorChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChooseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				0463B1BD28630AAC0095E853 /* TabControllers */,
 				0463B1BB286305A30095E853 /* SecondCustomViewController.swift */,
 				0463B1C228630D0F0095E853 /* TextEntryCustomViewController.swift */,
+				0463B1C6286326390095E853 /* ColorChooseViewController.swift */,
 				0463B1AD286302D80095E853 /* Main.storyboard */,
 				0463B1B0286302DB0095E853 /* Assets.xcassets */,
 				0463B1B2286302DB0095E853 /* LaunchScreen.storyboard */,
@@ -83,6 +88,7 @@
 				0463B1AB286302D80095E853 /* ViewController.swift */,
 				0463B1BE28630ACC0095E853 /* SecondViewController.swift */,
 				0463B1C028630AD20095E853 /* ThirdViewController.swift */,
+				0463B1C42863251D0095E853 /* FourthViewController.swift */,
 			);
 			path = TabControllers;
 			sourceTree = "<group>";
@@ -159,9 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0463B1AC286302D80095E853 /* ViewController.swift in Sources */,
+				0463B1C7286326390095E853 /* ColorChooseViewController.swift in Sources */,
 				0463B1A8286302D80095E853 /* AppDelegate.swift in Sources */,
 				0463B1BC286305A30095E853 /* SecondCustomViewController.swift in Sources */,
 				0463B1BF28630ACC0095E853 /* SecondViewController.swift in Sources */,
+				0463B1C52863251D0095E853 /* FourthViewController.swift in Sources */,
 				0463B1C128630AD20095E853 /* ThirdViewController.swift in Sources */,
 				0463B1C328630D0F0095E853 /* TextEntryCustomViewController.swift in Sources */,
 				0463B1AA286302D80095E853 /* SceneDelegate.swift in Sources */,

@@ -37,6 +37,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ApR-gg-kWc"/>
                         <segue destination="RdT-mm-kNy" kind="relationship" relationship="viewControllers" id="JNd-yx-uBk"/>
                         <segue destination="iDt-pS-bN4" kind="relationship" relationship="viewControllers" id="Xaa-RS-LKF"/>
+                        <segue destination="Qq6-p3-kY7" kind="relationship" relationship="viewControllers" id="bpg-zh-Fbh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ztW-if-KQv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -74,6 +75,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95Q-5e-y0E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1342" y="801"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="oIW-YU-KLj">
+            <objects>
+                <viewController id="Qq6-p3-kY7" customClass="FourthViewController" customModule="PassingData" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OOS-q2-46M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Yi5-YA-U1x"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="06S-Vp-hxT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TVb-0I-Ecj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2043" y="760"/>
         </scene>
     </scenes>
     <resources>
